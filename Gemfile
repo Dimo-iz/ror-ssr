@@ -43,8 +43,7 @@ group :development, :test do
   gem 'spring'
 
   # For the React front-end
-  gem 'react_on_rails', '10.0.1'
-  gem 'webpacker', '~> 3.0'
+  gem 'react_on_rails', '11.1.4'
 
   # For the Internal GraphQL API
   gem 'graphql'
