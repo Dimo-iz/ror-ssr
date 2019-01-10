@@ -44,10 +44,13 @@ group :development, :test do
 
   # For the React front-end
   gem 'react_on_rails', '11.1.4'
-
+  gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
   # For the Internal GraphQL API
   gem 'graphql'
   gem 'graphiql-rails'
   gem 'graphql-batch'
   gem 'graphql-query-resolver'
 end
+
+gem 'mini_racer', platforms: :ruby
+gem 'graphiql-rails', group: :development
